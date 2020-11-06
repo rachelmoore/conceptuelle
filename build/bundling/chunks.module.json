@@ -1,47 +1,18 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.43.0",
-  "hash": "6031abd407a0c98a3781",
+  "version": "4.44.2",
+  "hash": "8f33f12674cac9201220",
   "publicPath": "/static/",
   "outputPath": "/Users/rachelmoore/Desktop/Websites/conceptuelle/build/static",
   "assetsByChunkName": {
-    "conceptuelle": [
-      "conceptuelle.module.js",
-      "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
-    ],
+    "conceptuelle": "conceptuelle.module.js",
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "be0e2cf1677a86e0836d.hot-update.json",
-      "size": 54,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "conceptuelle.be0e2cf1677a86e0836d.hot-update.js",
-      "size": 72250,
-      "chunks": [
-        "conceptuelle"
-      ],
-      "chunkNames": [
-        "conceptuelle"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "conceptuelle.module.js",
-      "size": 9198028,
+      "size": 6741137,
       "chunks": [
         "conceptuelle"
       ],
@@ -49,11 +20,12 @@
         "conceptuelle"
       ],
       "info": {},
-      "emitted": false
+      "emitted": false,
+      "isOverSizeLimit": true
     },
     {
       "name": "list.module.js",
-      "size": 53787,
+      "size": 53879,
       "chunks": [
         "list"
       ],
@@ -61,7 +33,7 @@
         "list"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -71,8 +43,7 @@
         "conceptuelle"
       ],
       "assets": [
-        "conceptuelle.module.js",
-        "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
+        "conceptuelle.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -84,8 +55,7 @@
         "conceptuelle"
       ],
       "assets": [
-        "conceptuelle.module.js",
-        "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
+        "conceptuelle.module.js"
       ],
       "children": {},
       "childAssets": {}
