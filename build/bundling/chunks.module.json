@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "6031abd407a0c98a3781",
+  "publicPath": "/static/",
+  "outputPath": "/Users/rachelmoore/Desktop/Websites/conceptuelle/build/static",
+  "assetsByChunkName": {
+    "conceptuelle": [
+      "conceptuelle.module.js",
+      "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
+    ],
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "be0e2cf1677a86e0836d.hot-update.json",
+      "size": 54,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "conceptuelle.be0e2cf1677a86e0836d.hot-update.js",
+      "size": 72250,
+      "chunks": [
+        "conceptuelle"
+      ],
+      "chunkNames": [
+        "conceptuelle"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "conceptuelle.module.js",
+      "size": 9198028,
+      "chunks": [
+        "conceptuelle"
+      ],
+      "chunkNames": [
+        "conceptuelle"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 53787,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "conceptuelle": {
+      "chunks": [
+        "conceptuelle"
+      ],
+      "assets": [
+        "conceptuelle.module.js",
+        "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "conceptuelle": {
+      "chunks": [
+        "conceptuelle"
+      ],
+      "assets": [
+        "conceptuelle.module.js",
+        "conceptuelle.be0e2cf1677a86e0836d.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
